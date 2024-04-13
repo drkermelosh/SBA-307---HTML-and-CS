@@ -1,0 +1,11 @@
+  html, body {
+    height: 100%; /* Ensures the full height of the viewport */
+  }
+  .container {
+    height: 100%; /* Ensures container takes full height of the viewport */
+    display: flex;
+    align-items: center; /* This centers the row vertically */
+  }
+  .row {
+    width: 100%; /* Ensures the row takes full width */
+  }

@@ -2,12 +2,41 @@
     padding: 0px;
     margin: 0px;
   }
+  body {
+  font-family: "Montserrat", sans-serif;
+}
+.book_shop{
+  text-decoration: underline;
+}
 
+.book_shop:hover{
+   text-decoration:none;
+}
+
+.best_seller{
+  text-decoration: underline
+}
+.best_seller:hover{
+  text-decoration: none;
+}
   ul {
     list-style-type: none;
     padding: 0px;
     margin: 0px;
   
+  }
+  .book_price :hover{
+    text-decoration:underline;
+      font-weight: bolder;
+
+  }
+
+  .hover_link :hover{
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  a {
+    text-decoration: none;
   }
   
   html, body {
@@ -43,6 +72,4 @@
     font-size: large;
   }
 
-  .book_price {
-    font-size: small;
-  }
+  

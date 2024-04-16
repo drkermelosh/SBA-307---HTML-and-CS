@@ -1,0 +1,36 @@
+table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            
+        }
+
+  .book_img_sm {
+    width: 25%; /* Adjust this value as needed */
+    height: auto; /* Maintains aspect ratio */
+  }
+
+  .table_img {
+    
+    padding-left: 20px;
+    
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+ .price a:hover{
+      font-weight: bolder;
+   }
+
+   
+td:hover{
+    text-decoration:underline;
+      font-weight: bolder;
+       color: blue; 
+   */
+
+  }

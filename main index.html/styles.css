@@ -72,4 +72,11 @@
     font-size: large;
   }
 
-  
+  .outer-wrapper{
+  background-image: url("../images/78b87549-b9d7-4012-9fbe-6fda476b41ed.webp");
+	height: 350px; 
+	background-position: center;
+	background-repeat: no-repeat;
+  background-size: cover;
+  color:whitesmoke;
+  }

@@ -21,7 +21,6 @@
 
     <title> Montgomery Book Shop</title>
 </head>
-
 <body>
     <!--Nar Bar start here -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
@@ -36,7 +35,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Features</a>
                     </li>
-
                     <li class="nav-item">
                         <a class="nav-link" href="#">Seach Books</a>
                     </li>
@@ -47,32 +45,36 @@
                     <i class="bi bi-box-arrow-in-right"></i> Sign In
                 </button>
             </div>
-
         </div>
-
     </nav>
-    <!--Nar Bar start here -->
+    <!--Nar Bar endhere -->
+    <!-- outer-wrapper container start here -->
     <div>
         <div class=" outer-wrapper container-fluid">
-        <section class="">
-            <!-- first title start here -->
-            <h1 class=" book_shop col fs-1 p-5 text-center ">
-                MONTGOMERY BOOK Shop
-            </h1>
-        </section>
-            <!-- first title end here -->
-     
-            <!-- second title start here -->
-            <div class="container">
-                <h1 class=" best_seller col text-center">Best Sellers</h1>
-            </div>
+            <section class="title">
+                <h1 class=" book_shop col fw-bold  text-center ">
+                    MONTGOMERY BOOK SHOP
+                </h1>
+            </section>
         </div>
-            <!--second title end here-->
-
-            <!--best sellers book start here-->
-            <section>
-            <div class="container">
+        <!--best sellers book start here-->
+        <section>
+            <div class="container-fluid">
                 <div class="row">
+                    <div class="container">
+                        <h1 class=" best_seller col text-center pt-3">BEST SELLERS</h1>
+                    </div>
+                    <div class="book col text-center">
+                        <img class="book_img mx-auto " src="/images/Gone Girl.jpg" alt="Best Seller Books ">
+                        <ul class="text-center">
+                            <li class="book_title">Gone Girl</li>
+                            <li class="book_author">Gillian Flynn</li>
+                            <li class="book_price">
+                                <a href="../from/form.html" target="_blank">$12.99</a>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </li>
+                        </ul>
+                    </div>
                     <div class="book col">
                         <img class="book_img img-fluid mx-auto d-block" src="/images/DUNE IMG.jpg"
                             alt="Best Seller Books">
@@ -83,7 +85,18 @@
                                 <a href="../from/form.html" target="_blank">$12.99</a>
                                 <i class="fa-solid fa-cart-shopping"></i>
                             </li>
-
+                        </ul>
+                    </div>
+                    <div class="book col">
+                        <img class="book_img img-fluid mx-auto d-block" src="/images/Life of Pi.jpg"
+                            alt="Best Seller Books">
+                        <ul class="text-center">
+                            <li class="book_title">Life of Pi</li>
+                            <li class="book_author">Yann Martel</li>
+                            <li class="book_price">
+                                <a href="../from/form.html" target="_blank">$12.99</a>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </li>
                         </ul>
                     </div>
                     <div class="book col">
@@ -102,7 +115,8 @@
                         <img class="book_img img-fluid mx-auto d-block"
                             src="/images/Harry Potter and the Goblet of Fire.jpg" alt="Best Seller Books">
                         <ul class="text-center">
-                            <li class="book_title">Harry Potter and the Goblet of Fire</li>
+                            <li class="book_title">Harry Potter and the <br>
+                                Goblet of Fire</li>
                             <li class="book_author">J.K. Rowling</li>
                             <li class="book_price">
                                 <a href="../from/form.html" target="_blank">$12.99</a>
@@ -112,7 +126,31 @@
                     </div>
                     <div class="row">
                         <div class="book col">
-                            <img class="book_img img-fluid mx-auto d-block"
+                            <img class="book_img img-fluid mx-auto d-block mt-3" src="/images/Stephen King_4.jpg"
+                                alt="Best Seller Books">
+                            <ul class="text-center">
+                                <li class="book_title">Stephen King</li>
+                                <li class="book_author">The Shining</li>
+                                <li class="book_price">
+                                    <a href="../from/form.html" target="_blank">$12.99</a>
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="book col">
+                            <img class="book_img img-fluid mx-auto d-block mt-4" src="/images/The Help.jpg"
+                                alt="Best Seller Books">
+                            <ul class="text-center">
+                                <li class="book_title">The Help</li>
+                                <li class="book_author">Kathryn Stockett</li>
+                                <li class="book_price">
+                                    <a href="../from/form.html" target="_blank">$12.99</a>
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="book col">
+                            <img class="book_img img-fluid mx-auto d-block mt-3"
                                 src="/images/Harry Potter and the Prisoner of Azkaban.jpg" alt="Best Seller Books">
                             <ul class="text-center">
                                 <li class="book_title">Harry Potter and the Prisoner of Azkaban</li>
@@ -124,11 +162,12 @@
                             </ul>
                         </div>
                         <div class="book col">
-                            <img class="book_img img-fluid mx-auto d-block"
+                            <img class="book_img img-fluid mx-auto d-block mt-3"
                                 src="/images/Harry Potter and the Chamber of Secrets new one.jpg"
                                 alt="Best Seller Books">
                             <ul class="text-center">
-                                <li class="book_title">Harry Potter and the Chamber of Secrets</li>
+                                <li class="book_title">Harry Potter and the Chamber
+                                    <br> of Secrets</li>
                                 <li class="book_author">J.K. Rowling</li>
                                 <li class="book_price">
                                     <a href="../from/form.html" target="_blank">$12.99 </a>
@@ -137,7 +176,7 @@
                             </ul>
                         </div>
                         <div class="book col">
-                            <img class="book_img img-fluid mx-auto d-block" src="/images/the lord of the ring .jpg"
+                            <img class="book_img img-fluid mx-auto d-block mt-3" src="/images/the lord of the ring .jpg"
                                 alt="Best Seller Books">
                             <ul class="text-center">
                                 <li class="book_title"> Lord of the Rings</li>
@@ -148,16 +187,16 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="text-center hover_link">
+                        <div class="text-center hover_link mt-2">
                             <a href="../table/table.html"> Show More </a>
                         </div>
                     </div>
-                    </div>
-                    </div>
-                    <!--best sellers book end here-->
+                </div>
+            </div>
+            <!--best sellers book end here-->
         </section>
     </div>
-
+<!-- outer-wrapper container end here -->
 
     <footer class="bg-secondary text-white p-3 mt-2">
         <div class="container">

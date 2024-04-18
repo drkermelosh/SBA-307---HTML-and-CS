@@ -1,3 +1,25 @@
-.merged-row {
-    margin-top: -1px; /* Adjust as needed */
-    border-top: 2px solid #000; /* Border to visually merge rows */
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+  body {
+  font-family: "Montserrat", sans-serif;
+}
+
+
+
+.book_img {
+    width: 15%; /* Adjust us needed */
+    height: auto; 
+  }
+
+  .checkout-box {
+    background-color:rgb(244, 239, 239);
+  }
+
+
+  
+
+
+
+

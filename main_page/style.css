@@ -5,17 +5,13 @@
   body {
   font-family: "Montserrat", sans-serif;
 }
-.title{
-  padding-top: 70px;
-}
+
 .book_shop {
-  text-decoration: underline;
-
-
+  color: rgb(0, 0, 0);
 }
 
 .book_shop:hover{
-   text-decoration:none;
+   text-decoration:underline;
 }
 
 .best_seller{
